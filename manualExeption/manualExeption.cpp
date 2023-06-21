@@ -13,3 +13,10 @@ int main()
 		//blok ini akan di eksekusi
 		cout << " penegcualian akan di eksekusi" << endl;
 
+	}
+	catch (...) {
+		/*jika  selalin int maka blok ini akan di eksekusi*/
+		cout << "default akan dieksekusi" << endl;
+	}
+	return o;
+}
