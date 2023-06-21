@@ -13,3 +13,6 @@ int main() {
 
 	cout << ">= menulis file, \'q\' untuk keluar" << endl;
 
+	//unlimeted loop untuk menulis
+	while (true) {
+		cout << "- ";
